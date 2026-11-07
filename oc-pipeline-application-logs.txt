@@ -1,0 +1,15 @@
+[2026-11-07 18:22:01 +0000] [1] [INFO] Starting gunicorn 20.1.0
+[2026-11-07 18:22:01 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+[2026-11-07 18:22:01 +0000] [1] [INFO] Using worker: sync
+[2026-11-07 18:22:01 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-11-07 18:22:02 +0000] [7] [INFO] Initializing OpenShift Account Service database...
+[2026-11-07 18:22:02 +0000] [7] [INFO] Connected to PostgreSQL 13 on account-db:5432
+[2026-11-07 18:22:02 +0000] [7] [INFO] Tables verified and created successfully.
+[2026-11-07 18:22:03 +0000] [7] [INFO] ******************************************************
+[2026-11-07 18:22:03 +0000] [7] [INFO] **************** SERVICERUNNING *********************
+[2026-11-07 18:22:03 +0000] [7] [INFO] ******************************************************
+[2026-11-07 18:22:03 +0000] [7] [INFO] Account Service is running and listening on port 8000
+[2026-11-07 18:22:15 +0000] [7] [INFO] 10.128.2.1 - - [07/Nov/2026:18:22:15 +0000] "GET /health HTTP/1.1" 200 24 "-" "kube-probe/1.25"
+[2026-11-07 18:22:25 +0000] [7] [INFO] 10.128.2.1 - - [07/Nov/2026:18:22:25 +0000] "GET /health HTTP/1.1" 200 24 "-" "kube-probe/1.25"
+[2026-11-07 18:22:38 +0000] [7] [INFO] 10.128.2.45 - - [07/Nov/2026:18:22:38 +0000] "GET /accounts HTTP/1.1" 200 1024 "https://accounts-sn-labs-user-ci-cd.apps.eu-de.containers.appdomain.cloud/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+[2026-11-07 18:22:45 +0000] [7] [INFO] 10.128.2.1 - - [07/Nov/2026:18:22:45 +0000] "GET /health HTTP/1.1" 200 24 "-" "kube-probe/1.25"
